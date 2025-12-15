@@ -1,0 +1,18 @@
+{
+	"name": "textofinal",
+	"plugin-id": "Text",
+	"sid": 366564330441775,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "Variable1",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 622788979438805
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

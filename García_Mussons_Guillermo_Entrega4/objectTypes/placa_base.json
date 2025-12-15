@@ -1,0 +1,62 @@
+{
+	"name": "placa_base",
+	"plugin-id": "Sprite",
+	"sid": 270003051256056,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 699023145633583
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 753,
+						"height": 808,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 8376344,
+						"collisionPoly": {
+							"points": [
+								0.16733067729083664,
+								0.03217821782178218,
+								0.8804780876494024,
+								0.07178217821782178,
+								0.8658698539176627,
+								0.9653465346534653,
+								0.13280212483399734,
+								0.9579207920792079,
+								0.08897742363877822,
+								0.47029702970297027,
+								0.12084993359893759,
+								0.034653465346534656
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 715476012370454,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,362 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "PiezasColocadas",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 783423538360115
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "placa_base",
+					"sid": 523445894803998,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "placa_base",
+					"sid": 450771369043070,
+					"parameters": {
+						"object": "atx_case"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "placa_base",
+					"sid": 416996074587811,
+					"parameters": {
+						"x": "644",
+						"y": "271"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "placa_base",
+					"sid": 690712241061559,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 128283683596471,
+					"parameters": {
+						"variable": "PiezasColocadas",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 103712086165926
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "cpu",
+					"sid": 137992951921960,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "cpu",
+					"sid": 362685600349887,
+					"parameters": {
+						"object": "atx_case"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "cpu",
+					"sid": 335596646910818,
+					"parameters": {
+						"x": "653",
+						"y": "203"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "cpu",
+					"sid": 444919249592579,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 815117890953029,
+					"parameters": {
+						"variable": "PiezasColocadas",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 515514710619642
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "ram",
+					"sid": 584159904357860,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "ram",
+					"sid": 905641048669728,
+					"parameters": {
+						"object": "atx_case"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "ram",
+					"sid": 624787271954792,
+					"parameters": {
+						"x": "769",
+						"y": "207"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "ram",
+					"sid": 514391106494428,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 543737979318716,
+					"parameters": {
+						"variable": "PiezasColocadas",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 791029368430333
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "cpu_cooler",
+					"sid": 813619553736221,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "cpu_cooler",
+					"sid": 436471488963112,
+					"parameters": {
+						"object": "atx_case"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "cpu_cooler",
+					"sid": 635600208142982,
+					"parameters": {
+						"x": "655",
+						"y": "207"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "cpu_cooler",
+					"sid": 130836524710915,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 841272418568991,
+					"parameters": {
+						"variable": "PiezasColocadas",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 383902475185796
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "grafica",
+					"sid": 276155793878972,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "grafica",
+					"sid": 133726116544027,
+					"parameters": {
+						"object": "atx_case"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "grafica",
+					"sid": 951300264972819,
+					"parameters": {
+						"x": "634",
+						"y": "366"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "grafica",
+					"sid": 905854904181092,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 863775096632209,
+					"parameters": {
+						"variable": "PiezasColocadas",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 556066790850938
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "psu",
+					"sid": 245954202158405,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "psu",
+					"sid": 609468779199101,
+					"parameters": {
+						"object": "atx_case"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "psu",
+					"sid": 869642485766376,
+					"parameters": {
+						"x": "667.5",
+						"y": "535"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "psu",
+					"sid": 741070161869901,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 122119033503334,
+					"parameters": {
+						"variable": "PiezasColocadas",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 759963494011399
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 469941844993187,
+					"parameters": {
+						"variable": "PiezasColocadas",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "textofinal",
+					"sid": 358246107239916,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 354883502891760
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 569117547231605,
+					"parameters": {
+						"variable": "PiezasColocadas",
+						"comparison": 0,
+						"value": "6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "textofinal",
+					"sid": 249417648774963,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 271665700573152
+		}
+	],
+	"sid": 825646157858437
+}
